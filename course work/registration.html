@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<style>
+		.form-wrap {
+			margin: auto;
+			padding: 20px;
+			max-width: 850px
+		}
+		
+		.messageForError {
+			visibility: visible;
+			color: red;
+			font-size: 0.8rem;
+			padding-left: 10px;
+		}
+		.correctValue {
+			visibility: hidden;
+		}
+		
+		.userStyleInput {
+			border: solid red 2px;
+		}
+		
+		#textArea {
+			margin-top: 20px ;
+			margin-left: 20px;
+			min-height: 50px;
+			width: 500px;
+			border-radius: 10px;
+			padding: 3px 10px;
+		}
+		
+		.inline {
+			display: inline;
+		}
+		
+		.btnMarginBottom {
+			margin-bottom: 30px;
+		}
+		
+		.removeRightMargin {
+		!important;
+			margin-right: 0;
+		}
+		
+		.comment {
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			min-height: 50px;
+			width: 90%;
+			padding: 0 10px;
+			margin: 15px 0 2px;
+			
+		}
+		
+		.noText {
+			border: 1px solid red;
+		}
+		
+		.btnUnderText {
+			margin: 5px;
+		}
+		
+		.approved {
+			background-color: aquamarine;
+		}
+		
+		.declined {
+			background-color: #fa8e8e;
+		}
+	</style>
+</head>
+<body>
+	<h2>Registration</h2>
+	<div class="form-wrap">
+		<form class="my-form" action="">
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<input id="nameField" type="text" name="name" class="form-control" placeholder="username">
+				</div>
+				<div class="form-group col-md-6">
+					<input id="passwordField" type="password" name="password" class="form-control" placeholder="password">
+				</div>
+			</div>
+			
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<input id="emailField" type="text" name="email" class="form-control" placeholder="Email">
+				</div>
+				<div class="form-group col-md-6">
+					<input id="cardField" type="text" name="card" class="form-control" placeholder="credit card">
+				</div>
+			</div>
+			
+			<fieldset class="form-group">
+				<div class="row">
+					<legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+					<div class="col-sm-10" id = "radioGender">
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="gridRadios" id="maleRadio" value="male" checked>
+							<label class="form-check-label" for="maleRadio">
+								Male
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="gridRadios" id="femaleRadio" value="female">
+							<label class="form-check-label" for="femaleRadio">
+								Female
+							</label>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+			
+			<button id="buttonSend" type="submit" class="btn btn-primary">Отправить</button>
+			<a id="button" class="btn btn-primary">ПРоверить</a>
+		</form>
+		<a href="checkout.html">вернуться обратно</a>
+	</div>
+	
+	<!--скрипт формы обратной связи-->
+	<script src="Scripts/registration.js"></script>
+	
+	
+</body>
+</html>

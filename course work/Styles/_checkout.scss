@@ -1,0 +1,211 @@
+.mainCheckout {
+	padding-bottom: 80px;
+}
+
+.checkoutForms {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.caption-h3:focus {
+	outline: none;
+}
+
+.shippingAdressCheckout {
+	display: flex;
+	justify-content: flex-start;
+	width: 1140px;
+	margin-bottom: 70px;
+}
+
+
+.leftSideBlock, 
+.rightSideBlock {
+	width: calc(100% / 2);
+	height: 370px;
+}
+
+.leftSideBlock {
+	padding-left: 40px;
+}
+
+.caption-h3 {
+	height: 72px;
+  	font-family: $font-Lato-ss;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: #222222;
+  	text-transform: uppercase;
+  	line-height: 72px;
+}
+
+.item-numbers {
+	padding-right: 15px;
+}
+
+.checkoutForms__caption-h3:hover .item-numbers {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.checkoutForms__caption-h3:hover {
+	cursor: pointer;
+}
+
+.caption-h4 {
+	font-family: $font-Lato-ss;
+	font-weight: normal;
+ 	font-size: 13px;
+ 	color: #222222;
+ 	text-transform: uppercase;	
+}
+
+.checkoutForms__caption-h4 {
+	margin-bottom: 15px;
+}
+
+.checkoutForms__caption-h4_mod {
+	margin-top: 15px;
+}
+
+.caption-h5 {
+	font-family: $font-Lato-ss;
+	font-size: 12px;
+  	font-weight: normal;
+  	color: #222222;
+ 	text-transform: uppercase;
+}
+
+.inpitRadioWrap {
+	height: 27px;
+}
+
+.form__caption-h5,
+.form__inputRadio {
+	display: inline-block;	
+}
+
+.form__caption-h5 {
+	padding-left: 15px;
+}
+
+.leftSideBlock__form {
+	margin-top: 30px;
+}
+
+.checkoutForms__inputRadio {
+	margin-right: 20px;
+}
+
+.textSmall {
+  	font-family: $font-Lato-ss;
+  	font-size: 13px;
+  	color: #b3b2b2;
+}
+
+.textSmallParagraf {
+	margin: 35px 0;
+	line-height: 25px;
+}
+
+.leftSideBlock__textSmall {
+	margin-top: 15px;
+}
+
+.btnCheckout {
+	width: 180px;
+ 	height: 50px;
+ 	background-color: #ffffff;
+ 	border: solid 1px #eaeaea;
+ 	font-family: $font-Lato-ss;
+  	font-size: 14px;
+  	font-weight: 700;
+  	color: #4a4a4a;
+  	text-transform: uppercase;
+}
+
+.btnCheckout:hover {
+	box-shadow: 6px 6px 20px 2px #ccc;
+	cursor: pointer;
+}
+
+.btnCheckout:active {
+    transform: $transform-translate;
+    box-shadow: 6px 6px 20px 2px #ccc;
+    cursor: pointer;
+}
+
+.btnCheckout__text {
+	font-family: $font-Lato-ss;
+  	font-size: 14px;
+  	font-weight: 700;
+  	color: #4a4a4a;
+  	text-transform: uppercase;
+}
+
+
+.formEmail__rightSideBlock {
+	margin-top: 15px;
+}
+
+.formEmailInput {
+	width: 390px;
+  	height: 45px;
+  	background-color: #ffffff;
+  	border: solid 1px #eaeaea;
+  	padding-left: 10px;
+}
+
+.formEmailInput__caption-h5 {
+	margin-top: 23px;
+	margin-bottom: 16px;
+}
+
+.formEmail__textSmall {
+	margin-top: 22px;
+	margin-bottom: 20px;
+}
+
+.textSmallRequired {
+	color: #ff0d0d;
+}
+
+.formEmailInput__caption-h5_required:after {
+	content: " *";
+	font-size: 17px;
+  	color: #ff0d0d;
+}
+
+.forgot-pass {
+	font-family: $font-Lato-ss;
+  	font-size: 14px;
+  	color: #222222;
+}
+
+.forgot-pass:hover {
+	font-weight: bold;
+}
+
+.rightSideBlock__forgot-pass {
+	padding-left: 32px;
+}
+
+.rightBorder {
+	border: 1px solid red;
+}
+
+.displayNone {
+	display: none;
+}
+
+
+.btnLogOut {
+	display: block;
+	width: 70px;
+	height: 20px;
+	background-color: #f16d7f;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 18px;
+}

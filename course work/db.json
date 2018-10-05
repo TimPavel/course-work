@@ -1,0 +1,228 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "id_product": "101",
+      "imgLink": "Images/Layer-43.png",
+      "name": "Mango People T-shirt",
+      "price": "$22.00"
+    },
+    {
+      "id": 2,
+      "id_product": "102",
+      "imgLink": "Images/Layer-44.png",
+      "name": "Orange People T-shirt",
+      "price": "$99.00"
+    },
+    {
+      "id": 3,
+      "id_product": "103",
+      "imgLink": "Images/Layer-45.png",
+      "name": "Plum People T-shirt",
+      "price": "$75.00"
+    },
+    {
+      "id": 4,
+      "id_product": "104",
+      "imgLink": "Images/Layer-47.png",
+      "name": "Kiwi People T-shirt",
+      "price": "$80.00"
+    },
+    {
+      "id": 5,
+      "id_product": "105",
+      "imgLink": "Images/Layer-49.png",
+      "name": "Pear People T-shirt -1",
+      "price": "$71.00"
+    },
+    {
+      "id": 6,
+      "id_product": "106",
+      "imgLink": "Images/Layer-4.png",
+      "name": "2 Avocado People T-shirt",
+      "price": "$44.00"
+    },
+    {
+      "id": 7,
+      "id_product": "107",
+      "imgLink": "Images/Layer_9.png",
+      "name": "Banana People T-shirt",
+      "price": "$35.00"
+    },
+    {
+      "id": 8,
+      "id_product": "108",
+      "imgLink": "Images/Layer_7.png",
+      "name": "Watermelon People T-shirt",
+      "price": "$20.00"
+    },
+    {
+      "id": 9,
+      "id_product": "109",
+      "imgLink": "Images/Layer-50.png",
+      "name": "Peach People T-shirt",
+      "price": "$25.00"
+    },
+    {
+      "id": 10,
+      "id_product": "110",
+      "imgLink": "Images/Layer-49.png",
+      "name": "Grapes People T-shirt -2",
+      "price": "$77.00"
+    },
+    {
+      "id": 11,
+      "id_product": "111",
+      "imgLink": "Images/Layer-43.png",
+      "name": "3 Avocado People T-shirt",
+      "price": "$47.00"
+    },
+    {
+      "id": 12,
+      "id_product": "112",
+      "imgLink": "Images/Layer-47.png",
+      "name": "Melon People T-shirt",
+      "price": "$71.00"
+    },
+    {
+      "id": 13,
+      "id_product": "113",
+      "imgLink": "Images/Layer-45.png",
+      "name": "Blueberry People T-shirt",
+      "price": "$74.00"
+    },
+    {
+      "id": 14,
+      "id_product": "114",
+      "imgLink": "Images/Layer-50.png",
+      "name": "Pineapple People T-shirt",
+      "price": "$35.00"
+    },
+    {
+      "id": 15,
+      "id_product": "115",
+      "imgLink": "Images/Layer_7.png",
+      "name": "Tangerine People T-shirt -3",
+      "price": "$72.00"
+    },
+    {
+      "id": 16,
+      "id_product": "116",
+      "imgLink": "Images/Layer-4.png",
+      "name": "4 Apple People T-shirt",
+      "price": "$52.00"
+    },
+    {
+      "id": 17,
+      "id_product": "117",
+      "imgLink": "Images/Layer-4.png",
+      "name": "Lime People T-shirt",
+      "price": "$39.00"
+    },
+    {
+      "id": 18,
+      "id_product": "118",
+      "imgLink": "Images/Layer-45.png",
+      "name": "Fig People T-shirt",
+      "price": "$65.00"
+    },
+    {
+      "id": 19,
+      "id_product": "119",
+      "imgLink": "Images/Layer-44.png",
+      "name": "Papaya People T-shirt",
+      "price": "$69.00"
+    },
+    {
+      "id": 20,
+      "id_product": "120",
+      "imgLink": "Images/Layer-43.png",
+      "name": "Cranberry People T-shirt -4",
+      "price": "$32.00"
+    },
+    {
+      "id": 21,
+      "id_product": "121",
+      "imgLink": "Images/Layer_9.png",
+      "name": "5 Nectarine People T-shirt",
+      "price": "$59.00"
+    },
+    {
+      "id": 22,
+      "id_product": "122",
+      "imgLink": "Images/Layer-50.png",
+      "name": "Persimmon People T-shirt",
+      "price": "$22.00"
+    },
+    {
+      "id": 23,
+      "id_product": "123",
+      "imgLink": "Images/Layer-49.png",
+      "name": "Quince People T-shirt",
+      "price": "$54.00"
+    },
+    {
+      "id": 24,
+      "id_product": "124",
+      "imgLink": "Images/Layer-44.png",
+      "name": "Grapefruit People T-shirt",
+      "price": "$24.00"
+    },
+    {
+      "id": 25,
+      "id_product": "125",
+      "imgLink": "Images/Layer-4.png",
+      "name": "Mango People T-shirt -5",
+      "price": "$12.00"
+    }
+  ],
+  "users": [
+    {
+      "id_user": 204,
+      "name": "Valera",
+      "password": "12345678",
+      "email": "wk@ail.com",
+      "creditCard": "121",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "id_user": 202,
+      "name": "Екатерина",
+      "password": "12345678",
+      "email": "ok@ail.com",
+      "creditCard": "1111",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "id_user": 202,
+      "name": "Петр",
+      "password": "12345678",
+      "email": "ww@ww.ww",
+      "creditCard": "12",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "id_user": 202,
+      "name": "Вольдемар",
+      "password": "98765432",
+      "email": "qq@ee.rr",
+      "creditCard": "125555",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "id_user": 203,
+      "name": "Ким Чен Ын",
+      "password": "87654321",
+      "email": "rr@ee.nn",
+      "creditCard": "125555",
+      "gender": "male",
+      "id": 7
+    }
+  ],
+  "userLoggedIn": [],
+  "cart": []
+}
