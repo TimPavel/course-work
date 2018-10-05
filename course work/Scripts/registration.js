@@ -33,8 +33,7 @@ var textErrorForEmail = 'Not correct email, please use this formats\nmymail@mail
 //находим инпут для кредитной карты
 var cardField = document.getElementById('cardField');
 //устанавливаем регулярное выражение для карты
-var cardRegExp = /^[\d]+$/;
-// var cardRegExp = /^[\d]{7}-[\d]{4}-[\d]{6}-[\d]{3}$/;
+var cardRegExp = /^[\d]{7}-[\d]{4}-[\d]{6}-[\d]{3}$/;
 //создаем блок для сообщения об ошибке при вводе текста
 var errorMessageCard = document.createElement('div');
 //устанавливаем сам текст сообщения при несоответствии введенного значения и установленного регулярного выражения для текста
