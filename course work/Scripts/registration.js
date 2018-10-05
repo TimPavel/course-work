@@ -219,4 +219,3 @@ function setErrorNotCorrectInput(element, classForElement, errorEl, errorText, e
 	$('#message').text(errorText).dialog('open');
 }
 
-console.log(document.cookie );
